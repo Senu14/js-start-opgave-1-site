@@ -7,8 +7,9 @@
     <title>opgave 1 site</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
     <script src="js/variables.js" defer></script>
+    <script src="Js/New.js" defer></script>
 </head>
 
 <body>
@@ -17,8 +18,8 @@
         <![endif]-->
 
     <h1>test side</h1> <!--class-->
-    <h2 class="smallHeadline">afsnit</h2>    <!--class-->
-    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor   <!--p tag kan vi ruge som id-->    
+    <h2 class="smallHeadline" id = "h1h2-id">afsnit</h2>    <!--class-->
+    <p id="p-id">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor   <!--p tag kan vi ruge som id-->    
 
         quam,
         feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
@@ -32,20 +33,20 @@
 
     <h2 class="smallHeadline">fieldset</h2>  
 
-    <fieldset> <!--label er en class-->    <!--inpute er id-->
+    <fieldset id ="fieldset-id"> <!--label er en class-->    <!--inpute er id-->
 
         <legend>Forskellige inputs og interaktions muligheder</legend>
 
         <label>Month</label>
         <input type="month">
 
-        <label><input type="checkbox" name="checkbox">Check</label>
+        <label><input type="checkbox" name="checkbox" id="checkbox-id">Check</label>
 
         <label>Color</label>
         <input type="color">
 
 
-        <label>radio buttons</label>   <!--label er en class-->    <!--inpute er id-->
+        <label>radio buttons</label> <!--label er en class-->    <!--inpute er id-->
 
         <label><input type="radio" name="radio">option 1</label>
         <label><input type="radio" name="radio">option 2</label>
@@ -55,15 +56,15 @@
         <label>Range</label>
         <input type="range">
 
-        <input type="button" value="input Button">
+        <input type="button" value="input Button" id="input-id">
 
 
-        <input type="reset" value="Reset">
+        <input type="reset" value="Reset" id="input1-id">
 
 
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" id="input2-id">
 
-        <button>button</button>
+        <button>button</button >
 
         <label>Select</label>
 
